@@ -1,0 +1,36 @@
+2023-08-15 15:57:30 DEBUG - Get settings from: settings.json
+2023-08-15 15:57:33 DEBUG - Got browser profile options from settings file: 
+intl.accept_languages: en,
+safebrowsing.enabled: true,
+profile.default_content_settings.popups: 0,
+disable-popup-blocking: true,
+download.prompt_for_download: false,
+download.default_directory: ./downloads
+2023-08-15 15:57:33 DEBUG - Got browser capabilities from settings file: 
+enableVNC: True,
+unhandledPromptBehavior: default
+2023-08-15 15:57:33 DEBUG - Got excluded browser arguments from settings file: enable-automation
+2023-08-15 15:57:33 DEBUG - Got browser logging preferences from settings file: 
+Performance: All
+2023-08-15 15:57:35 INFO - Browser 'Chrome' ready...
+2023-08-15 15:57:35 INFO - Maximizing browser window
+2023-08-15 15:57:35 INFO - Navigate to URL - 'https://mnogosna.ru/tipy-matrasov/'
+2023-08-15 15:57:40 INFO - Waiting for page to load
+2023-08-15 15:57:40 INFO - Label 'Main Page' :: Waiting for element to be displayed
+2023-08-15 15:57:40 INFO - Text Field 'Search Field On Main Page' :: Waiting for element to be displayed
+2023-08-15 15:57:41 INFO - Text Field 'Search Field On Main Page' :: Clicking
+2023-08-15 15:57:41 INFO - Waiting for page to load
+2023-08-15 15:57:41 INFO - Text Field 'Search Field Pop Up On Main Page' :: Sending keys 'матрас аскона 160х200'
+2023-08-15 15:57:42 INFO - Text Field 'First Search Result' :: Waiting for element to be displayed
+2023-08-15 15:57:42 INFO - Text Field 'Result Топперы Аскона 160х200 hasn't appeared' :: Waiting for element to be displayed
+2023-08-15 15:57:43 INFO - Text Field 'Result Топперы Аскона 160х200 hasn't appeared' :: Getting text from element
+2023-08-15 15:57:43 INFO - Text Field 'Result Топперы Аскона 160х200 hasn't appeared' :: Element's text: [Топперы Аскона 160х200]
+2023-08-15 15:57:43 INFO - Text Field 'First Search Result' :: Getting attribute 'href'
+2023-08-15 15:57:43 INFO - Text Field 'First Search Result' :: Value of attribute 'href': [https://mnogosna.ru/tipy-matrasov/topper/ascona/160x200/]
+2023-08-15 15:57:43 INFO - Text Field 'First Search Result' :: Getting attribute 'href'
+2023-08-15 15:57:43 INFO - Text Field 'First Search Result' :: Value of attribute 'href': [https://mnogosna.ru/tipy-matrasov/topper/ascona/160x200/]
+2023-08-15 15:57:43 INFO - ComboBox 'Image' :: Getting image of element
+2023-08-15 15:57:44 INFO - ComboBox 'Image' :: Element's image size: [{Width=226, Height=127}]
+2023-08-15 15:57:44 INFO - ComboBox 'Image' :: Comparing element's image to image of size [{Width=410, Height=308}]
+2023-08-15 15:57:44 INFO - ComboBox 'Image' :: The difference between the current and the given images is [50.39 %]
+2023-08-15 15:57:44 INFO - Closing browser
